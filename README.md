@@ -1,7 +1,7 @@
 <div align="center">
   <br>
   <p>
-    <img src="https://github.com/qvco/mindreader-ai/assets/77382767/50e8a50a-6f6b-4bd9-9880-5b527c716eb7" width="450px">
+    <a href="https://yay.space/post/364273107"><img src="https://github.com/qvco/mindreader-ai/assets/77382767/50e8a50a-6f6b-4bd9-9880-5b527c716eb7" width="450px"></a>
   </p>
   <h3>MindReader AI</h3>
    <p>
