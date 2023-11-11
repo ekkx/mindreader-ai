@@ -1,7 +1,7 @@
 <div align="center">
   <br>
   <p>
-    <img src="https://github.com/qvco/mindreader-ai/assets/77382767/50e8a50a-6f6b-4bd9-9880-5b527c716eb7" width="500px">
+    <img src="https://github.com/qvco/mindreader-ai/assets/77382767/50e8a50a-6f6b-4bd9-9880-5b527c716eb7" width="450px">
   </p>
   <h3>MindReader AI</h3>
    <p>
@@ -65,9 +65,9 @@ pip install -r requirements.txt
 6. `.env.example`を参考に`.env`ファイルを作成:
 
 ```sh
-YAY_ACCOUNT_EMAIL=Yayで使用しているメールアドレス
-YAY_ACCOUNT_PASSWORD=Yayで使用しているパスワード
-ROOT_POST_ID=(´∀｀∩)↑age↑を取得したい投稿のID
+YAY_ACCOUNT_EMAIL=<Yayで使用しているメールアドレス>
+YAY_ACCOUNT_PASSWORD=<Yayで使用しているパスワード>
+ROOT_POST_ID=<アゲ↑を取得したい投稿のID>
 DB_PATH=.unchi
 ```
 
