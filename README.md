@@ -7,7 +7,6 @@
    <p>
         MindReader AIのソースコード<br />
         <br />
-        <br />
         <a href="https://github.com/qvco/yaylib">
             <strong>Yay! のライブラリはこちらから »</strong>
         </a>
@@ -63,12 +62,12 @@ py -m venv venv
 pip install -r requirements.txt
 ```
 
-6. `.env.example`を参考に`.env`ファイルを作成し、環境変数を設定:
+6. `.env.example`を参考に`.env`ファイルを作成:
 
 ```sh
 YAY_ACCOUNT_EMAIL=Yayで使用しているメールアドレス
 YAY_ACCOUNT_PASSWORD=Yayで使用しているパスワード
-ROOT_POST_ID=起点にする投稿のID
+ROOT_POST_ID=(´∀｀∩)↑age↑を取得したい投稿のID
 DB_PATH=.unchi
 ```
 
@@ -79,6 +78,11 @@ py main.py
 ```
 
 ## Links
+
+- [Python 版 Yay! - ライブラリ](https://qvco.github.io/yaylib)
+- [Node.js 版 Yay! - ライブラリ](https://qvco.github.io/yay.js)
+- [GitHub](https://github.com/qvco/mindreader-ai)
+- [Discord Server](https://discord.gg/Y8f2K74URa)
 
 ## Help
 
