@@ -80,7 +80,7 @@ class MindReader:
                             self.client.logger.error(e)
                             charactor_amount -= 500
 
-                    generated_answer += "\nMindReader AI より"
+                    generated_answer += "\n\nMindReader AI より"
 
                     res = self.client.create_post(
                         generated_answer,
