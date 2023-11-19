@@ -15,6 +15,9 @@ providers = [
     g4f.Provider.GPTalk,
 ]
 
+# 投稿するとBANされるキーワード
+banned_words = ["yip.su"]
+
 
 class MindReader:
     def __init__(self, db_path: str, email: str, password: str) -> None:
@@ -79,6 +82,10 @@ class MindReader:
                         except Exception as e:
                             self.client.logger.error(e)
                             charactor_amount -= 500
+
+                    if any(word in generated_answer for word in banned_words):
+                        self.db.queue(repost.id)
+                        continue
 
                     generated_answer += "\n\nMindReader AI より"
 
